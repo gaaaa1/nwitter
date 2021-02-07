@@ -8,7 +8,7 @@ const Home = ({ userObj }) => {
 
     const [nweet, setNweet] = useState("");
     const [nweets, setNweets] = useState([]);
-    const [attachment, setAttachment] = useState();
+    const [attachment, setAttachment] = useState("");
 
     useEffect(() => {
         //nweets firebase의 데이터가 변할때마다 실행됨 (변화를 감지)
@@ -24,7 +24,7 @@ const Home = ({ userObj }) => {
         event.preventDefault();
         let attachmentUrl = "";
 
-        if (attachment != "") {
+        if (attachment !== "") {
             const attachmentRef = storageService.ref().child(userObj.uid + '/' + uuidv4());
             const reponse = await attachmentRef.putString(attachment, "data_url");
             attachmentUrl = await reponse.ref.getDownloadURL();
@@ -75,6 +75,7 @@ const Home = ({ userObj }) => {
     return (
         <div>
             <form onSubmit={onSubmit}>
+                {/* nweet 입력 시 */}
                 <input
                     value={nweet}
                     onChange={onChange}

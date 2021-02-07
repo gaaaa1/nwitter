@@ -32,7 +32,7 @@ const Nweet = ({ nweetObj, isOwner }) => {
                 editing ? (
                     <>
                         <form onSubmit={onSubmit}> 
-                            // 주석테스트
+                            {/* nweet 수정 시 */}
                             <input
                                 type="text"
                                 placeholder="Edit your nweet"
@@ -46,6 +46,7 @@ const Nweet = ({ nweetObj, isOwner }) => {
                     </>
                 ) : (
                         <>
+                            {/* nweet 수정아닌 경우 일반적인 실시간 nweet를 보여줌 */}
                             <h4>{nweetObj.text}</h4>
                             {nweetObj.attachmentUrl && <img src={nweetObj.attachmentUrl} width = "50px" height="50px" />}
                             {isOwner && (
