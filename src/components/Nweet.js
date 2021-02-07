@@ -32,7 +32,7 @@ const Nweet = ({ nweetObj, isOwner }) => {
                 editing ? (
                     <>
                         <form onSubmit={onSubmit}> 
-                            
+                            // 주석테스트
                             <input
                                 type="text"
                                 placeholder="Edit your nweet"
