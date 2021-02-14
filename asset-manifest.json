@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/nwitter/static/css/main.5e6006f4.chunk.css",
-    "main.js": "/nwitter/static/js/main.3112479a.chunk.js",
-    "main.js.map": "/nwitter/static/js/main.3112479a.chunk.js.map",
+    "main.css": "/nwitter/static/css/main.a5e2e0d8.chunk.css",
+    "main.js": "/nwitter/static/js/main.ba1560c8.chunk.js",
+    "main.js.map": "/nwitter/static/js/main.ba1560c8.chunk.js.map",
     "runtime-main.js": "/nwitter/static/js/runtime-main.222ae764.js",
     "runtime-main.js.map": "/nwitter/static/js/runtime-main.222ae764.js.map",
-    "static/js/2.bee37245.chunk.js": "/nwitter/static/js/2.bee37245.chunk.js",
-    "static/js/2.bee37245.chunk.js.map": "/nwitter/static/js/2.bee37245.chunk.js.map",
+    "static/js/2.b7bc9e17.chunk.js": "/nwitter/static/js/2.b7bc9e17.chunk.js",
+    "static/js/2.b7bc9e17.chunk.js.map": "/nwitter/static/js/2.b7bc9e17.chunk.js.map",
     "index.html": "/nwitter/index.html",
-    "precache-manifest.b117b29303c1e74e86c85dde968d875c.js": "/nwitter/precache-manifest.b117b29303c1e74e86c85dde968d875c.js",
+    "precache-manifest.ab57ab8781f827722def3847c81c3dd1.js": "/nwitter/precache-manifest.ab57ab8781f827722def3847c81c3dd1.js",
     "service-worker.js": "/nwitter/service-worker.js",
-    "static/css/main.5e6006f4.chunk.css.map": "/nwitter/static/css/main.5e6006f4.chunk.css.map",
-    "static/js/2.bee37245.chunk.js.LICENSE.txt": "/nwitter/static/js/2.bee37245.chunk.js.LICENSE.txt"
+    "static/css/main.a5e2e0d8.chunk.css.map": "/nwitter/static/css/main.a5e2e0d8.chunk.css.map",
+    "static/js/2.b7bc9e17.chunk.js.LICENSE.txt": "/nwitter/static/js/2.b7bc9e17.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.222ae764.js",
-    "static/js/2.bee37245.chunk.js",
-    "static/css/main.5e6006f4.chunk.css",
-    "static/js/main.3112479a.chunk.js"
+    "static/js/2.b7bc9e17.chunk.js",
+    "static/css/main.a5e2e0d8.chunk.css",
+    "static/js/main.ba1560c8.chunk.js"
   ]
 }
